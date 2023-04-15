@@ -59,13 +59,13 @@ size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="Timer" type="Timer" parent="."]
-wait_time = 1.1
+wait_time = 1.249
 one_shot = true
 autostart = true
 
 [node name="MidiPlayer" type="Node" parent="."]
 script = ExtResource( 3 )
-file = "res://experimental/Undertale_-_Spear_Of_Justice.mid"
+file = "res://experimental/spear_test.mid"
 playing = true
 volume_db = -144.0
 soundfont = "res://experimental/Yoshi's Island.sf2"
