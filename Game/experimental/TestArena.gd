@@ -30,5 +30,15 @@ func play_random():
 	pass
 
 func _on_Timer_timeout():
-	play_random()
+	$AudioStreamPlayer.play()
+
+	pass # Replace with function body.
+
+
+func _on_MidiPlayer_midi_event(channel, event):
+
+	if channel.number == 10 and event.type == 144 and channel.note_on.size()>0:
+		
+		play_random()
+		
 	pass # Replace with function body.

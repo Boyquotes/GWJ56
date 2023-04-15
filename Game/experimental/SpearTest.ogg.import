@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/SpearTest.ogg-443d864329d5658139e52e4bc1a19941.oggstr"
+
+[deps]
+
+source_file="res://experimental/SpearTest.ogg"
+dest_files=[ "res://.import/SpearTest.ogg-443d864329d5658139e52e4bc1a19941.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
